@@ -1,0 +1,14 @@
+<p id="demo"></p>
+
+<script>
+let text = "";
+let i = 2;
+while (i < 501) {
+if(i%3==0|| i%5==0 ||i%7==0 ) {
+text += "<br>The number is " + i;
+}
+  
+  i++;
+}
+document.getElementById("demo").innerHTML = text;
+</script>
